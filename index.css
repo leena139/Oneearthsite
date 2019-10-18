@@ -80,7 +80,7 @@ padding-right: 30px; */
 /* change-remove */
   padding-bottom: 30px;
 text-align: justify;
- font-size: 20px;
+ font-size: 19px;
  /* width:60%; */
 float: left;
 color:white;
@@ -103,7 +103,7 @@ padding: 8px;
 }
 .font_change {
 	font-family: 'Roboto'!important;
-	font-size: 16px!important;
+	font-size: 17px!important;
 }
 
 #now{
@@ -262,7 +262,7 @@ small {
 	.signup
 	{
 		height: auto;
-			font-size: 14px;
+			font-size: 14px!important;
 	}
 
 	input[type=email]
@@ -310,11 +310,11 @@ width: 150px;
 			.signup
 			{
 				height: auto;
-				font-size: 14px;
+				font-size: 14px!important;
 			}
 			input[type=email]
 			{
-		width: 150px;
+		  width: 150px;
 			font-size: 14px;
 			}
 
@@ -393,8 +393,8 @@ width: 150px;
 }
 
 
-/* Extra large devices (large desktops, 1200px and up) */
- @media (min-width: 1400px)  and (max-width: 1600px)
+/* Extra more*/
+ @media (min-width: 1600px)  
 {
 #content-desktop{display: block;}
 #content-mobile {display:none;}
@@ -407,10 +407,10 @@ width: 150px;
 	height: auto;
 }
 .content{
-	font-size: 20px;
+	font-size: 18px;
 }
 .font_change
 {
-	font-size: 18px;
+	font-size: 16px;
 }
 }
