@@ -394,7 +394,7 @@ width: 150px;
 
 
 /* Extra more*/
- @media (min-width: 1600px)  
+ @media (min-width: 1600px)
 {
 #content-desktop{display: block;}
 #content-mobile {display:none;}
@@ -407,10 +407,13 @@ width: 150px;
 	height: auto;
 }
 .content{
-	font-size: 18px;
+	font-size: 20px;
 }
 .font_change
 {
-	font-size: 16px;
+	font-size: 1.125em;
 }
 }
+#wrapper {
+            min-height: 100%;
+        }
