@@ -96,6 +96,24 @@ return false;
 
 </script>
 
+
+<script type="text/javascript">
+
+  let vh = window.innerHeight * 0.01;
+
+ <!-- Then we set the value in the --vh custom property to the root of the document -->
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+ <!-- We listen to the resize event -->
+window.addEventListener('resize', () => {
+
+   <!-- We execute the same script as before -->
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+});
+</script>
+
+
 </head>
 <body>
 
@@ -132,11 +150,12 @@ return false;
 
 
   <div class="flex-container full-height">
-          <span class="column  scene1 img1 imgtop " id="content-desktop" >
+          <span class="column scene1 img1 imgtop" id="content-desktop" >
               <img src="img\crpd-scene1.png" style="width="100px">
           </span>
-
-          <span class="column content ">
+          <div class="leftPane">
+          <span class="  content">
+            <!-- column -->
                     <div>
 
             <p>
@@ -178,11 +197,11 @@ return false;
 
 
       </span>
-
+</div>
 
 </div>
 
-<footer>
+
 <div class="contact">
 
 			<small>Join us at</small>
@@ -199,7 +218,7 @@ return false;
 
 		</div>
 <div>
-</footer>
+
 
 </body>
 </html>
