@@ -376,9 +376,25 @@ width: 150px;
 }
 
 }
+/* Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px)
+{
+#content-desktop{display: block;}
+#content-mobile {display:none;}
+
+.flex-container{
+	height: auto;
+}
+.signup
+{
+	height: auto;
+}
+
+}
+
 
 /* Extra large devices (large desktops, 1200px and up) */
- @media (min-width: 1200px)  and (max-width: 1600px)
+ @media (min-width: 1400px)  and (max-width: 1600px)
 {
 #content-desktop{display: block;}
 #content-mobile {display:none;}
@@ -391,32 +407,10 @@ width: 150px;
 	height: auto;
 }
 .content{
-	font-size: 24px;
+	font-size: 20px;
 }
 .font_change
 {
-	font-size: 20px;
+	font-size: 18px;
 }
 }
-
-/* @media and (min-width: 1200px) and (max-width: 1600px)
-{
-
-#content-desktop{display: block;}
-#content-mobile {display:none;}
-
-.flex-container{
-	height: auto;
-}
-.signup
-{
-	height: auto;
-}
-.content{
-	font-size: 24px;
-}
-.font_change
-{
-	font-size: 20px;
-}
-} */
